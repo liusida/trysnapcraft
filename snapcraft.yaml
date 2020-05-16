@@ -14,4 +14,4 @@ apps:
 parts:
   trysnapcraft:
     source: .
-    plugin: autotools
+    plugin: cmake
