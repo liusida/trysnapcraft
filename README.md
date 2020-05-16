@@ -1,0 +1,2 @@
+# trysnapcraft
+try snap craft
