@@ -1,0 +1,17 @@
+name: trysnapcraft
+base: core18
+version: '0.01'
+summary: the "hello world" snap
+description: |
+  Learn how to publish software to snapcraft
+grade: stable
+confinement: strict
+
+apps:
+  trysnapcraft:
+    command: bin/trysnapcraft
+
+parts:
+  trysnapcraft:
+    source: .
+    plugin: autotools
